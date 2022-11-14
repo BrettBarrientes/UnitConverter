@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+#box-container {
+    
+    width: 350px;
+    height: 500px;
+    left: 500px;
+    top: 125px;
+    background: #1F2937;
+    border-radius: 3px;
+     
+}
+
+#box-background {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: #6943FF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: 'Inter';
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#inputValue {
+    font-size: 40px;
+    width: 75px;
+    height: 60px;
+    background-color: #6943FF;
+    border-radius: 1px;
+    border-color: #FFFFFF;
+    text-align: center;
+    color: white; 
+    max-width: 150px;  
+}
+
+
+
+
+button {
+    width: 85px;
+    height: 42px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 5px; 
+    
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#group-one {
+    width: 325px;
+    height: 75px;
+    background: #2c3e58;
+    border-radius: 5px;
+    margin-top: 220px;
+    margin-left: 12px;
+    
+}
+
+#group-two {
+    width: 325px;
+    height: 75px;
+    background: #2c3e58;
+    border-radius: 5px;
+    margin: 12px; 
+}
+
+
+#group-three {
+    width: 325px;
+    height: 75px;
+    background: #2c3e58;
+    border-radius: 5px;
+    margin-left: 12px; 
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    
+}
+
+#length-input {
+    
+    text-align: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+#volume-input {
+    
+    text-align: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+#mass-input {
+    
+    text-align: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+
+
